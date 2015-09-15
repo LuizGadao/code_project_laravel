@@ -12,8 +12,8 @@ class ClientTableSeeder extends Seeder
     public function run()
     {
         //clear table
-        CodeProject\Client::truncate();
+        CodeProject\Model\Client::truncate();
         //insert 10 itens
-        factory(CodeProject\Client::class, 10)->create();
+        factory(CodeProject\Model\Client::class, 10)->create();
     }
 }

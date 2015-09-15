@@ -2,7 +2,7 @@
 
 namespace CodeProject\Http\Controllers;
 
-use CodeProject\Client;
+use CodeProject\Model\Client;
 use Illuminate\Http\Request;
 
 use CodeProject\Http\Requests;
